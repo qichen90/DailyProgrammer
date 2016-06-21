@@ -1,2 +1,2 @@
 # DailyProgrammer
-done challenge from https://www.reddit.com/r/dailyprogrammer/wiki/challenges
+Done challenges from https://www.reddit.com/r/dailyprogrammer/wiki/challenges
