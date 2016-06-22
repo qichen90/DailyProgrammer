@@ -5,11 +5,22 @@ $(document).ready(function(){
 	// let res = `Your name is ${name}, you are ${age} years old, and your username is ${username}.`;
 	// confirm(res);
 
-	$('button').click(function(){
+	$('.submit').click(function(){
 		let name = $('textarea#name').val();
 		let age = $('textarea#age').val();
 		let username = $('textarea#username').val();
 		confirm( `Your name is ${name}, you are ${age} years old, and your username is ${username}.`);
 		$('.ans').append(`<p>Your name is ${name}, you are ${age} years old, and your username is ${username}.</p>`);
+		
 	});
+	// $('.export').click(function(){
+		$('a').click(function(){
+			$(this).css({'text-decoration': 'none', 'color': 'black'});
+			let name = $('textarea#name').val();
+			let age = $('textarea#age').val();
+			let username = $('textarea#username').val();
+			this.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(`${name}, ${age}, ${username}`);
+			this.download = 'export.txt';
+		});
+	// });
 });
