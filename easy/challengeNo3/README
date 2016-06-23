@@ -1,0 +1,8 @@
+[EASY] Challenge #3: https://www.reddit.com/r/dailyprogrammer/comments/pkw2m/2112012_challenge_3_easy/
+Write a program that can encrypt texts with an alphabetical caesar cipher. This cipher can ignore numbers, symbols, and whitespace.
+for extra credit, add a "decrypt" function to your program!
+
+Language: Javascript
+
+Need to improve:
+    Improve the code. Contains some redandant parts.
