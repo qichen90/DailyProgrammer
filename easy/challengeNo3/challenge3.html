@@ -9,18 +9,23 @@
 <body>
 	<div>
 		<label>Original Text:</label>
-		<textarea id="org"></textarea><br/>
+		<textarea class="org"></textarea><br/>
+
 		<label># of places:</label>
-		<textarea id="num"></textarea><br />
+		<textarea class="num"></textarea><br />
+
 		<label>Rotation Direction</label>
-		<input type="radio" name="left" value="left">Left
-		<input type="radio" name="right" value="right">Right
+		<input id="left" type="radio" name="rotation" value="left">Left
+		<input id="right" type="radio" name="rotation" value="right">Right
 		<br/>
 		<br/>
+
 		<button id="encrypt">Encrypted</button>
-		<button id="decrypt">Decrypted</button><br/>
+		<button id="decrypt">Decrypted</button>
+		<button id="clear">Clear</button>
+		<button id="reset">Reset</button><br/>
 	</div>
-	<!-- <textarea id="decrypt"></textarea><br/>
-	<textarea id="encrypt"></textarea><br/> -->
+	<div class="res">
+	</div>
 </body>
 </html>
