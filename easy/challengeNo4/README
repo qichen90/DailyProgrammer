@@ -5,6 +5,8 @@ For even more extra credit, allow the user to specify the length of the strings 
 
 Language: Javascript
 
+Used <input> instead of <textarea>, <button>
+
 Need to improve:
   
     
