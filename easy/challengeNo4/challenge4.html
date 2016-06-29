@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Get Week</title>
+	<title>Password Generator</title>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript" src="challenge4.js"></script>
 </head>
 <body>
-
+	<div>
+		<!-- <label># of password</label>
+		<textarea id="num"></textarea><br/>
+		<label>length of the password you want</label>
+		<textarea id="len"></textarea><br/> -->
+		<form>
+			# of Passwords: <input type="text" name="num" id="num"><br/>
+			length of Passwords: <input type="text" name="len" id="len"><br/>
+			<input type="button" value="Submit" id="submit">
+			<input type="button" value="Reset" id="reset">
+			<a href="#"><input type="button" value="Save" id="save"></a>
+		</form>
+	</div>
+<!-- 	<div>
+		<button id="get">Get</button>
+		<button id="reset">Reset</button>
+		<button id="save">Save</button>
+	</div> -->
+	<div class="res">
+	</div>
 </body>
 </html>

@@ -4,7 +4,7 @@ $(document).ready(function(){
 	// let username = prompt("What's your username?");
 	// let res = `Your name is ${name}, you are ${age} years old, and your username is ${username}.`;
 	// confirm(res);
-
+	$('a').css({'text-decoration': 'none', 'color': 'black'});
 	$('.submit').click(function(){
 		let name = $('textarea#name').val();
 		let age = $('textarea#age').val();
@@ -14,10 +14,9 @@ $(document).ready(function(){
 	});
 	// $('.export').click(function(){
 		$('a').click(function(){
-			$(this).css({'text-decoration': 'none', 'color': 'black'});
-			let name = $('textarea#name').val();
-			let age = $('textarea#age').val();
-			let username = $('textarea#username').val();
+			// let name = $('textarea#name').val();
+			// let age = $('textarea#age').val();
+			// let username = $('textarea#username').val();
 			this.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(`${name}, ${age}, ${username}`);
 			this.download = 'export.txt';
 		});
